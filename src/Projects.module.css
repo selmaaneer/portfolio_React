@@ -1,0 +1,58 @@
+.projects {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .sectionTitle {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .projectList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+  .project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .projectName {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007bff; /* Change the color as desired */
+  }
+
+  .projectDescription {
+    color: #666;
+    font-size: 16px;
+  }
+
+  .projectTechnologies {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .projectLinks {
+    margin-top: 10px;
+  }
+
+  .projectLink {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007bff; /* Change the color as desired */
+    text-decoration: none;
+  }
+
+  .projectLink:hover {
+    text-decoration: underline;
+  }

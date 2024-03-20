@@ -1,0 +1,49 @@
+.services {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .sectionTitle {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .serviceList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+  .service {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .serviceTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007bff; /* Change the color as desired */
+  }
+
+  .serviceDescription {
+    color: #666;
+    font-size: 16px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  

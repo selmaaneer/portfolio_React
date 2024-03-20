@@ -1,0 +1,39 @@
+.contactDetails {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .contactInfo {
+    margin-top: 20px;
+  }
+
+  .contactInfo p {
+    margin: 5px 0;
+  }
+
+  .socialIcons {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .socialIcons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .socialIcons li:last-child {
+    margin-right: 0;
+  }
+
+  .socialIcons a {
+    color: #007bff; /* Change the color as desired */
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .socialIcons a:hover {
+    text-decoration: underline;
+  }
